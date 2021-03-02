@@ -5,7 +5,7 @@ import imagen2 from "../../Assets/Dying-Light-logo.jpg"
 import imagen3 from "../../Assets/fb_image.png"
 
 
-class MainComponent extends Component {
+class InventoryComponent extends Component {
 
     render(){
 
@@ -16,7 +16,7 @@ class MainComponent extends Component {
             
             <div class="grid">
                 <h1>
-                Juegos Disponibles
+               Inventario
                 </h1>
                 <img class="imagen" src={imagen1} alt=""/>
                 <img class="imagen" src={imagen2} alt=""/>
@@ -27,4 +27,4 @@ class MainComponent extends Component {
         )
     }
 }
-export default MainComponent;
+export default InventoryComponent;
