@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Navbar,Nav,Icon,Dropdown } from 'rsuite';
 import Style from "./style.css";
 import {Link} from "react-router-dom";
 
@@ -9,8 +8,8 @@ const NavbarComp=()=>{
         <ul class="navigation">
             <li class="navItem"> <Link to="/">Inicio</Link></li>
             <li class="navItem"> <Link to="/inventory">Inventario</Link> </li>
-            <li class="navItem"> Cajitas</li>
-            <li class="navItem"> Perfil</li>
+            <li class="navItem"> <Link to="/">Cajitas</Link></li>
+            <li class="navItem"> <Link to="/">Perfil</Link></li>
         </ul>
     </nav>
     );

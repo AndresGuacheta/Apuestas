@@ -15,8 +15,8 @@ class InventoryComponent extends Component {
                
             
             <div class="grid">
-                <h1>
-               Inventario
+                <h1 class="h1">
+                Este es tu inventario 
                 </h1>
                 <img class="imagen" src={imagen1} alt=""/>
                 <img class="imagen" src={imagen2} alt=""/>
