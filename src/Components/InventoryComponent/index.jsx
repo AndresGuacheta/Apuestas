@@ -1,30 +1,44 @@
 import React, { Component } from "react";
 import "./style.css";
-import imagen1 from "../../Assets/stardew_valley.png"
-import imagen2 from "../../Assets/Dying-Light-logo.jpg"
-import imagen3 from "../../Assets/fb_image.png"
 
 
 class InventoryComponent extends Component {
-
-    render(){
-
-        return(
-            <>
-            <div class="box-container">
-               
-            
-            <div class="grid">
-                <h1 class="h1">
-                Este es tu inventario 
-                </h1>
-                <img class="imagen" src={imagen1} alt=""/>
-                <img class="imagen" src={imagen2} alt=""/>
-                <img class="imagen" src={imagen3} alt=""/>
-            </div>
-            </div>
-            </>
-        )
-    }
+    state = {
+        loading: true,
+        people: []
+      };
+      
+    
+      async componentDidMount() {
+        const url = "https://api.npoint.io/001ae1310af169829539";
+        const response = await fetch(url);
+        const data = await response.json();
+        this.setState({ people: data, loading: false });
+      }
+      
+    
+      render() {
+        return (
+          <section className='hero-section'>
+              <div class="card-grid">
+                {this.state.people.map(person => (
+                <a className ='card' key = {person.id} href="#">
+                  <div className = 'card__background'> <img class='imagen' src= {person.url}/></div>
+                  <div class="card__content">
+                  <p class="card__category">Categoria</p>
+                    <h3 class="card__heading">{person.categoria}</h3>
+                    <p class="card__category">Lanzamiento</p>
+                    <h3 class="card__heading">{person.lanzamiento}</h3>
+                    <p class="card__category">Precio</p>
+                    <h3 class="card__heading">{person.precio}</h3>
+                    
+                  </div>                 
+                </a>
+              
+            ))}
+          </div>
+          </section>
+        );
+      }
 }
 export default InventoryComponent;

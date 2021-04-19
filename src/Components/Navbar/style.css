@@ -4,31 +4,39 @@
     width: 15%;
     cursor: pointer;
     text-align: center;
+    
 }
-
 a {
-    color: #ffffff;
+    color: #939dac;
+    text-decoration: none;
+    
+}
+.topnav-right {
+    float: right;
+    
 }
 
 a:hover {
-    color:#54A065;
-    transition: color 0.5s ease;
+    color:#ffffff;
+    transition: color 0.5s ease;   
+    
 }
 
 nav {
-    background-color: #1b2838;
+    background-color: #0F161F;
     z-index:1;
-    position: sticky;
+    position:sticky;
     top: 0;
     display: flex;
-    justify-content: space-evenly;
+    
     border-bottom: groove #C9E4DE;
 }
 .navigation{
     display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    font-size: 25px;
+    
+    width: 5px;
+    height: 10%;
+    font-size: 18px;
     font-weight: bold;
     font-style: oblique;
 }
