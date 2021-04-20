@@ -5,7 +5,7 @@
     font-family: 'Century Gothic';
   }
   body {
-    background: rgb(26, 188, 156);
+    background: #2d3548;
   }
   .todo-app {
     display: flex;
@@ -13,7 +13,7 @@
     justify-content: start;
     width: 520px;
     min-height: 600px;
-    background: #20473f;
+    background: #556385;
     text-align: center;
     margin: 17px auto;
     border-radius: 10px;
@@ -21,7 +21,7 @@
   }
   h1 {
     margin: 32px 0;
-    color: rgb(26, 188, 156);
+    color: #ffffff;
     font-size: 24px;
   }
   .todo-form {
@@ -30,7 +30,7 @@
   .todo-input {
     padding: 14px 32px 14px 16px;
     border-radius: 4px 0 0 4px;
-    border: 2px solid rgb(26, 188, 156);
+    border: 2px solid #1b3c8a;
     outline: none;
     width: 320px;
     background: transparent;
@@ -45,8 +45,8 @@
     border-radius: 0 4px 4px 0;
     cursor: pointer;
     outline: none;
-    background: rgb(26, 188, 156);
-    color: #20473f;
+    background: #1e2c4d;
+    color: #ffffff;
     text-transform: capitalize;
   }
   .todo-container {
@@ -59,15 +59,15 @@
     justify-content: space-between;
     align-items: center;
     margin: 4px auto;
-    color: #20473f;
-    background: rgb(26, 188, 156);
+    color: #ffffff;
+    background:#2d3548;
     padding: 16px;
     border-radius: 5px;
     width: 90%;
   }
   .icons {
     display: flex;
-    align-items: center;
-    font-size: 24px;
-    cursor: pointer;
+    font-size: 60px;
+    padding-top: 35px;
+ 
   }

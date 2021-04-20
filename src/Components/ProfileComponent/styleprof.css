@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,400i,700");
+
+.prof {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+  width: 1200px;
+  text-align: center;
+  border-radius: 12px;
+  background: #4f4d5f ;
+  border: 2px solid #768ab8 ;
+ 
+}
+.prof header {
+  background-image: url("https://cdn.wallpapersafari.com/67/5/0H8GVZ.jpg");
+  height: 500px;
+  width: auto;
+  border-radius: 12px 12px 0 0;
+  margin-bottom: 70px;
+}
+.prof header img {
+  margin: 70px 40px 10px 40px;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  border: 6px solid #232938 ;
+}
+.prof header p {
+  color: rgb(255, 255, 255);
+  font-size: 58px;
+  font-weight: 30;
+  border-bottom: 20px;
+}
+.prof header h4{
+  color: rgb(151, 151, 151);
+  font-size: 23px;
+}
+.prof_body {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.prof_body ul.social {
+  display: flex;
+  list-style: none;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: space-around;
+}
+.prof_body ul.social li {
+  cursor: pointer;
+  
+}
+.prof_body li h3 {
+  font-size:xx-large;
+  color: rgb(255, 255, 255);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(67, 66, 73);
+}
+.prof_body li h4 {
+  color: rgb(168, 168, 168);
+  font-size:larger;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(49, 49, 49);
+}
+.imagen2{
+  width: 350px;
+  height: 300px;
+  border-radius: 50px;
+}
+
+
+

@@ -36,7 +36,7 @@ function TodoForm(props) {
             className='todo-input edit'
           />
           <button onClick={handleSubmit} className='todo-button edit'>
-            Actulizar amigo
+            Actualizar amigo
           </button>
         </>
       ) : (
