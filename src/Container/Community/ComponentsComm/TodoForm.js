@@ -52,6 +52,15 @@ function TodoForm(props) {
           <button onClick={handleSubmit} className='todo-button'>
             Agregar amigo
           </button>
+          <div className='divButton'>
+          <button onClick={handleSubmit} className='sala-button'>
+            Crear sala
+          </button>
+          
+          <button onClick={handleSubmit} className='sala-button'>
+            Eliminar sala
+          </button>
+          </div>
         </>
       )}
     </form>

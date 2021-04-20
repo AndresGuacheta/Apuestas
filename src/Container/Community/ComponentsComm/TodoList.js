@@ -42,7 +42,7 @@ function TodoList() {
 
   return (
     <>
-      <h1>Lista de amigos </h1>
+      <h1>Crear sala</h1>
       <TodoForm onSubmit={addTodo} />
       <Todo
         todos={todos}

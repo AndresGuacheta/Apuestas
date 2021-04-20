@@ -5,7 +5,7 @@
     font-family: 'Century Gothic';
   }
   body {
-    background: rgb(26, 188, 156);
+    background: #2a6973;
   }
   .todo-app {
     display: flex;
@@ -13,7 +13,7 @@
     justify-content: start;
     width: 520px;
     min-height: 600px;
-    background: #20473f;
+    background: #2d3548;
     text-align: center;
     margin: 17px auto;
     border-radius: 10px;
@@ -21,7 +21,7 @@
   }
   h1 {
     margin: 32px 0;
-    color: rgb(26, 188, 156);
+    color: rgba(255,255,255,0.6);
     font-size: 24px;
   }
   .todo-form {
@@ -30,7 +30,7 @@
   .todo-input {
     padding: 14px 32px 14px 16px;
     border-radius: 4px 0 0 4px;
-    border: 2px solid rgb(26, 188, 156);
+    border: 2px solid rgba(255,255,255,0.6);
     outline: none;
     width: 320px;
     background: transparent;
@@ -45,7 +45,25 @@
     border-radius: 0 4px 4px 0;
     cursor: pointer;
     outline: none;
-    background: rgb(26, 188, 156);
+    background: rgba(255,255,255,0.6);
+    color: #20473f;
+    text-transform: capitalize;
+  }
+  .divButton{
+    margin-top: 27px;  
+    margin-right: auto;
+  }
+  .sala-button{
+    width: 221px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    padding: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    background: rgba(255,255,255,0.6);
     color: #20473f;
     text-transform: capitalize;
   }
@@ -60,7 +78,7 @@
     align-items: center;
     margin: 4px auto;
     color: #20473f;
-    background: rgb(26, 188, 156);
+    background: rgba(255,255,255,0.6);
     padding: 16px;
     border-radius: 5px;
     width: 90%;
