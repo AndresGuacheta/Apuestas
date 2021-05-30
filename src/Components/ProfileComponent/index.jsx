@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./styleprof.css";
-import logo from "../../Assets/goku.jpg"
+import logo from "../../Assets/monkey.jpg"
 import juego from "../../Assets/Dragon-ball-fighterz.jpg"
 import juego2 from "../../Assets/Destiny.jpg"
 import juego3 from "../../Assets/Crash.jpg"
