@@ -21,26 +21,25 @@ render() {
   return (
    <div>
      <h2>COMENTARIOS DE LA COMUNIDAD</h2>
-    <div class="row">
-    {this.state.posts.map(post => (
-      
-      <div class="column">
-        <div class="item">
-        <div class="plx-card bronze">
-        <div class="pxc-bg" > <img class="imagen" src={post.url}/> </div>
-        <div class="pxc-avatar"><img src={post.urluser}/></div>
-  <div class="pxc-stopper">   </div>
-  <div class="pxc-subcard">
-    <div class="pxc-title">{post.name}</div>
-    <div class="pxc-sub"> {post.nickname} dice: {post.Reseña}  </div>
-    <div class="pxc-feats"><span>{post.categoria}</span>
-    </div>
-  </div>
-</div>
-        </div>                      
-      </div>
-    ))}
-    </div>
+        <div class="row">
+        {this.state.posts.map(post => (
+            <div class="column">
+              <div class="item">
+                <div class="plx-card bronze">
+                  <div class="pxc-bg" > <img class="imagen" src={post.url}/> </div>
+                    <div class="pxc-avatar"><img src={post.urluser}/></div>
+                    <div class="pxc-stopper">   </div>
+              <div class="pxc-subcard">
+                    <div class="pxc-title">{post.name}</div>
+                    <div class="pxc-sub"> {post.nickname} dice: {post.Reseña}  </div>
+                    <div class="pxc-feats"><span>{post.categoria}</span>
+                    </div>
+                </div>
+              </div>
+            </div>                      
+          </div>
+        ))}
+        </div>
     </div>
   );
 }

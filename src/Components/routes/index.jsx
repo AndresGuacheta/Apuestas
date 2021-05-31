@@ -1,11 +1,12 @@
 import React from "react";
-import Home from "../../Container/Home";
+import Home from "../../Container/home";
 import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
-import NavbarComp  from "../Navbar/navbar";
+import NavbarComp  from "../navbarComponent/navbar";
 import Inventory from "../../Container/inventory";
-import Error from "../../Container/Error";
-import Profile from "../../Container/Profile";
-import Comm from "../../Container/Community/App";
+import Error from "../../Container/error";
+import Profile from "../../Container/profile";
+import login from "../../Container/login";
+import Friends from "../../Container/friends";
 const Routing = ()=> {
 return (
     
@@ -13,9 +14,10 @@ return (
            <NavbarComp />
            <Switch>
            <Route exact path="/" component= {Home}/>
-           <Route exact path="/Inventory" component= {Inventory}/>
-           <Route exact path="/Profile" component= {Profile}/>
-           <Route exact path="/community" component= {Comm}/>
+           <Route exact path="/login" component= {login}/>
+           <Route exact path="/inventory" component= {Inventory}/>
+           <Route exact path="/profile" component= {Profile}/>
+           <Route exact path="/friends" component= {Friends}/>
            <Route component={Error}/>
            </Switch>
     </Router>

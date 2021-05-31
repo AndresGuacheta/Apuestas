@@ -10,8 +10,9 @@ const NavbarComp=()=>{
             <li class="navItem" >Jueguitos Sabana <img src={logo} alt="Jueguitos Sabana" width="45" height="45"/></li>
             <li class="navItem" > <Link to="/" >RESEÑAS</Link></li>
             <li class="navItem"> <Link to="/inventory">INVENTARIO</Link> </li>
-            <li class="navItem"> <Link to="/community">AMIGOS</Link></li>
+            <li class="navItem"> <Link to="/friends">AMIGOS</Link></li>
             <li class="navItem"> <Link to="/profile">PERFIL</Link></li>
+            <li class="navItem"> <Link to="/login">LOGIN</Link></li>
         </ul>
     </nav>
     );
